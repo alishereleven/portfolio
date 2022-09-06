@@ -16,7 +16,7 @@ const About = () => {
 
         <div className="about__content">
           <p>
-            This year I graduated Pusan National University. Throughout years of studying I discovered passion in programming. I want to start my career as a frontend developer. Today I learn React via online courses.
+            This year I graduated Pusan National University. Throughout years of studying, I discovered passion in programming. I want to start my career as a frontend developer. Today I learn React via online courses.
           </p>
           <a href="#contact" className='btn btn-secondary'>Let's Talk</a>
         </div>
