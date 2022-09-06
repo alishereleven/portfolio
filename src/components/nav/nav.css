@@ -1,0 +1,38 @@
+nav {
+  background: var(--color-dark);
+  backdrop-filter: blur(15px);
+  width: max-content;
+  padding: 0.7rem 1.7rem;
+  border-radius: 3rem;
+  position: fixed;
+  z-index: 2;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.navbar li a {
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-light);
+  font-size: 1.1rem;
+}
+
+.navbar li a:hover {
+  background: var(--color-dark);
+}
+
+.navbar li a > svg {
+  pointer-events: none;
+}
+
+.navbar li.active a{
+  background: var(--color-secondary);
+  color: var(--color-primary);
+}
