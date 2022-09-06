@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.edf57795.css",
+    "main.js": "/portfolio/static/js/main.b2fabd46.js",
+    "static/media/my-photo.jpg": "/portfolio/static/media/my-photo.ba0b2f7f3d9121aa578d.jpg",
+    "static/media/resume_frontend.pdf": "/portfolio/static/media/resume_frontend.206bb01b398ea0263302.pdf",
+    "static/media/tenzies.png": "/portfolio/static/media/tenzies.bbef94441d42252cf009.png",
+    "static/media/quizzical.png": "/portfolio/static/media/quizzical.7fe08be20b782ec6121e.png",
+    "index.html": "/portfolio/index.html",
+    "main.edf57795.css.map": "/portfolio/static/css/main.edf57795.css.map",
+    "main.b2fabd46.js.map": "/portfolio/static/js/main.b2fabd46.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edf57795.css",
+    "static/js/main.b2fabd46.js"
+  ]
+}
