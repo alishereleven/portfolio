@@ -1,12 +1,8 @@
 import React from 'react'
-import data from '../nav/data'
+import { navItems } from '../../data'
 import './footer.css'
 
 const Footer = () => {
-  const navItems = data.map(({ id, title }) => (
-    <li key={id}><a href={`#${id}`}>{title}</a></li>
-  ))
-
   return (
     <footer id="footer">
       <a href="#header" className="footer__logo">
@@ -14,7 +10,11 @@ const Footer = () => {
       </a>
 
       <ul className="permalinks">
-        {navItems}
+        {
+          navItems.map(({ id, title }) => (
+            <li key={id}><a href={`#${id}`}>{title}</a></li>
+          ))
+        }
       </ul>
 
       <div className="footer__copyright">

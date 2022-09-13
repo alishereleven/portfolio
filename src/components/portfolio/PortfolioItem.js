@@ -8,8 +8,8 @@ const PortfolioItem = ({ image, title, github, website }) => {
       </div>
       <h3>{title}</h3>
       <div className="portfolio__item-cta">
-        <a href={github} className='btn'>GitHub</a>
-        <a href={website} className='btn btn-secondary'>Website</a>
+        <a href={github} className='btn' rel="noreferrer" target="_blank">GitHub</a>
+        <a href={website} className='btn btn-secondary' rel="noreferrer" target="_blank">Website</a>
       </div>
     </article>
   )
