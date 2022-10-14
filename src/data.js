@@ -40,7 +40,7 @@ export const portfolioItems  = [
     id: 2,
     image: jobsAPI,
     title: 'Jobs API',
-    github: 'https://github.com/alishereleven',
+    github: 'https://github.com/alishereleven/jobs-api',
     website: 'https://jobs-api-eleven.herokuapp.com/'
   },
   {
